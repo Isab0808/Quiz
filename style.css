@@ -1,0 +1,65 @@
+* {
+   font-family: sans-serif;
+}
+
+body {
+   margin: 0px;
+   padding: 40px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+button {
+   outline: none;
+   border: none;
+   color: white;
+   padding: 8px 16px;
+   background-color: rgb(67, 121, 238);
+}
+
+.ButtonDelete {
+   background-color: rgb(238, 67, 67);
+}
+
+.form {
+   text-align: center;
+   padding: 40px;
+}
+
+.form label {
+   margin-right: 20px;
+}
+
+.board {
+   width: 100%;
+   height: max-content;
+   display: flex;
+   justify-content: space-between;
+}
+
+.title {
+   background-color: rgb(67, 121, 238);
+   color: white;
+   padding: 16px;
+}
+
+.board section {
+   display: flex;
+   flex-direction: column;
+   text-align: center;
+   width: 30%;
+}
+
+.card {
+   box-sizing: border-box;
+   width: 100%;
+   border: 1px solid lightgray;
+   padding: 20px;
+   margin-bottom: 40px;
+}
+
+.card div {
+   display: flex;
+   justify-content: space-around;
+}
